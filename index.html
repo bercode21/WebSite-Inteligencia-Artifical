@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REALIDAD VIRTUAL ZONE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&amp;family=Work+Sans:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="assets/img/logo.svg" width="110" height="110" alt="logo" />
+        </a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="assets/img/logo.svg"
+                width="80"
+                height="80"
+                alt="logo"
+              />
+            </a>
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon aria-hidden="true" name="close-outline"></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li>
+              <a href="#inicio" class="navbar-link">Inicio</a>
+            </li>
+            <li>
+              <a href="#sobreNosotros" class="navbar-link">Sobre Nosotros</a>
+            </li>
+            <li>
+              <a href="#servicios" class="navbar-link">Servicios</a>
+            </li>
+            <li>
+              <a href="#precios" class="navbar-link">Precios</a>
+            </li>
+            <li>
+              <a href="#blog" class="navbar-link">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#contactanos" class="btn btn-primary"> Contáctanos </a>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- banner -->
+        <section id="inicio" class="section banner">
+          <div class="container">
+            <div class="banner-content">
+              <h1 class="h1 banner-title">
+                Soluciones empresariales de realidad virtual.
+              </h1>
+              <p class="banner-text">
+                Contamos con más de 15 años de experiencia en el ámbito de la
+                consultoría empresarial. Tenemos más de 15 años de experiencia
+                en el ámbito de la consultoría empresarial y la inteligencia
+                artificial.
+              </p>
+              <div class="btn-wrapper">
+                <a href="https://www.youtube.com/@bercoder" target="_blank"  class="btn btn-primary">Únete a nosotros</a>
+                <a href="#" class="play-btn">
+                  <div class="icon">
+                    <ion-icon name="play" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">Cómo funciona</span>
+                </a>
+              </div>
+            </div>
+            <div class="banner-img">
+              <figure>
+                <img  class="w-100" 
+                  src="assets/img/banner.png"
+                  alt="img-banner-inteligencia artifial"
+                />
+              </figure>
+            </div>
+          </div>
+       
+        </section>
+
+        <!-- servicios -->
+        <section id="sobreNosotros" class="section service">
+          <div class="container">
+            <h2 class="h3 section-title">Nuestros Servicios</h2>
+            <p class="section-text">
+              Convertimos la información en conocimientos prácticos Trabajamos
+              para comprender sus problemas y están impulsados ​​a hacer mejores
+              preguntas en la búsqueda de hacer que funcione.
+            </p>
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/img/services/pedidos.svg"
+                      alt="pedidos"
+                    />
+                  </div>
+                  <h3 class="h5 card-title">Gestión de Pedidos</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Impedit alias voluptatum odit, ducimus praesentium tempora?
+                    Quis quisquam quo corrupti, asperiores minus consequatur
+                    illum nemo provident. Aspernatur, ipsam iure! Facere, harum!
+                  </p>
+                  <a href="http://" class="btn-text">
+                    <span class="span">Aprende más</span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/img/services/social.svg"
+                      alt="pedidos"
+                    />
+                  </div>
+                  <h3 class="h5 card-title">Asistente Social</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Impedit alias voluptatum odit, ducimus praesentium tempora?
+                    Quis quisquam quo corrupti, asperiores minus consequatur
+                    illum nemo provident. Aspernatur, ipsam iure! Facere, harum!
+                  </p>
+                  <a href="http://" class="btn-text">
+                    <span class="span">Aprende más</span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/img/services/criptografia.svg"
+                      alt="pedidos"
+                    />
+                  </div>
+                  <h3 class="h5 card-title">Plataforma Criptográfica</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Impedit alias voluptatum odit, ducimus praesentium tempora?
+                    Quis quisquam quo corrupti, asperiores minus consequatur
+                    illum nemo provident. Aspernatur, ipsam iure! Facere, harum!
+                  </p>
+                  <a href="http://" class="btn-text">
+                    <span class="span">Aprende más</span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img src="./assets/img/services/module.svg" alt="pedidos" />
+                  </div>
+                  <h3 class="h5 card-title">Módulos Comerciales</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Impedit alias voluptatum odit, ducimus praesentium tempora?
+                    Quis quisquam quo corrupti, asperiores minus consequatur
+                    illum nemo provident. Aspernatur, ipsam iure! Facere, harum!
+                  </p>
+                  <a href="http://" class="btn-text">
+                    <span class="span">Aprende más</span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/img/services/anality.svg"
+                      alt="pedidos"
+                    />
+                  </div>
+                  <h3 class="h5 card-title">Analizador de Noticias</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Impedit alias voluptatum odit, ducimus praesentium tempora?
+                    Quis quisquam quo corrupti, asperiores minus consequatur
+                    illum nemo provident. Aspernatur, ipsam iure! Facere, harum!
+                  </p>
+                  <a href="http://" class="btn-text">
+                    <span class="span">Aprende más</span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/img/services/notificaciones.svg"
+                      alt="pedidos"
+                    />
+                  </div>
+                  <h3 class="h5 card-title">Notificacíon de Precios</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Impedit alias voluptatum odit, ducimus praesentium tempora?
+                    Quis quisquam quo corrupti, asperiores minus consequatur
+                    illum nemo provident. Aspernatur, ipsam iure! Facere, harum!
+                  </p>
+                  <a href="http://" class="btn-text">
+                    <span class="span">Aprende más</span>
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- acerca de nosotros  ( about) -->
+        <section  class="section about">
+          <div class="container">
+            <figure class="about-img">
+              <img
+                src="./assets/img/about-img.svg"
+                class="w-100"
+                width="800"
+                height="580"
+                loading="lazy"
+                alt="about-img1"
+              />
+            </figure>
+            <div class="about-content">
+              <h2 class="h3 section-title">
+                Completamos proyectos y atendemos al cliente
+              </h2>
+              <p class="section-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                dictum risus, non suscipit arcu. Quisque aliquam posuere tortor,
+                sit amet convallis nuncoe scelerisque in. orem ipsum dolor sit
+                amet, consectetur adipisicing elit. Labore eius molestiae
+                facere, natus reprehenderit eaque eum, autem ipsam. Magfini,
+                error. Tempora odit laborum iure inventore possimus laboriosam
+                qui nam.
+              </p>
+              <a href="http://" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Caracteristicas ( feature ) -->
+
+        <section id="blog" class="section feature">
+          <div class="container">
+          
+            <div class="feature-content">
+              <p class="section-sutitle">Nuestras soluciones</p>
+              <h2 class="h3 section-title">
+                La Inteligencia artificial al alcence de Nuestras Mano
+              </h2>
+              <p class="section-text">
+                La inteligencia artificial diagnostica enfermedades, produce
+                contenido artístico, detecta fallos y averías, localiza
+                planetas, e incluso te ayuda a encontrar tu próximo trabajo.
+              </p>
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                    <span class="span">Procesamiento avanzado de datos.</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                    <span class="span"
+                      >Aplicaciones de realidad virtual y aumentada.</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                    <span class="span"
+                      >Chatbots enfocados a atención al cliente.</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                    <span class="span"
+                      >Personalización de productos en eCommerce.</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <ion-icon name="checkmark-outline"></ion-icon>
+                    </div>
+                    <span class="span"
+                      >Optimización web por búsquedas por voz.</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <figure class="feature-banner">
+              <img
+                src="./assets/img/img-feature.png"
+                class="w-100"
+                width="800"
+                height="580"
+                alt="feature"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- nuestro equipo -->
+        <section class="section team">
+          <div class="container">
+            <h2 class="h3 section-title">Conoce a nuestro equipo</h2>
+            <p class="section-subtitle">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
+              neque explicabo tempora dolorum similique minima eaque facere
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="team-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/img/team/img-1.png"
+                      loading="lazy"
+                      alt="img-team"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="section-text">Sunny Khan</h3>
+                    <p class="section-subtitle">Executive officer</p>
+                    <ul class="list-social">
+                      <li>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="team-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/img/team/img-2.png"
+                      loading="lazy"
+                      alt="img-team"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="section-text">Alina Jesia</h3>
+                    <p class="section-subtitle">UX/UI DESIGNER</p>
+                    <ul class="list-social">
+                      <li>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="team-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/img/team/img3.png"
+                      loading="lazy"
+                      alt="img-team"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="section-text">Alex Sohag</h3>
+                    <p class="section-subtitle">BUSINESS DEVELOPMENT</p>
+                    <ul class="list-social">
+                      <li>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="team-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/img/team/img-1.png"
+                      loading="lazy"
+                      alt="img-team"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="section-text">Afroza Mou</h3>
+                    <p class="section-subtitle">Head of marketing</p>
+                    <ul class="list-social">
+                      <li>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </li>
+                      <li>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- suscribete -->
+        <section id="contactanos" class="section newsletter">
+          <div class="container">
+            <div>
+              <h2 class="h3 section-text">
+                Suscríbase para obtener las últimas noticias
+              </h2>
+              <p class="section-subtitle">
+                Le recomendamos que se suscriba a nuestro periódico, deje su
+                correo electrónico a continuación para recibir actualizaciones
+                diarias sobre nosotros.
+              </p>
+            </div>
+
+            <form action="" class="newsletter-form">
+              <input
+                type="email"
+                placeholder="Ingrese su dirección de correo electronico"
+                class="input-newsletter"
+              />
+              <button class="btn btn-primary">
+                Suscríbete
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </button>
+            </form>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid-list">
+        <div class="footer-brand">
+          <a href="" class="logo">
+            <img  src="./assets/img/logo.svg" alt="logo">
+          </a>
+          <p class="footer-text">  &copy; 2023 bercoder. Reservados todos los derechos.  </p>
+        </div>
+
+      <ul class="footer-list">
+        <li>
+          <p class="footer-list-title">Service</p>
+        </li>
+        <li>
+          <a href="" class="footer-link">Gestión de pedido</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Asistente social</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Plataforma criptográfica</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Analizador de Noticias</a>
+        </li>
+      </ul>
+
+      <ul class="footer-list">
+        <li>
+          <p class="footer-list-title">Compania</p>
+        </li>
+        <li>
+          <a href="" class="footer-link">Sobre nosotros</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Noticias</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Nuestros Socios de confianza</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Preguntas frecuentes</a>
+        </li>
+      </ul>
+
+      <ul class="footer-list">
+        <li>
+          <p class="footer-list-title">Soporte</p>
+        </li>
+        <li>
+          <a href="" class="footer-link">Centro de ayuda</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Contáctenos</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Condiciones de los términos</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Preguntas frecuentes</a>
+        </li>
+      </ul>
+      </div>
+
+      <div class="footer-copyright">
+        <p class="footer-text">  &copy; 2023 bercoder. Reservados todos los derechos.  </p>
+      </div>
+    </footer>
+    <!-- 
+    - ionicon
+  -->
+    <script src="./assets/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
